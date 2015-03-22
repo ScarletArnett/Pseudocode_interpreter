@@ -1,0 +1,21 @@
+﻿ALGORITHME Test1
+FONCTION genere(n)
+    VARIABLES
+        nums <- []
+    DEBUT
+        POUR (i <- 1; i <= n; ++i)
+            append(nums, i)
+        FPOUR
+
+        nums
+    FIN
+
+DEBUT
+    lire("max")
+
+    CHAQUE (num <- genere(int(max)))
+        SI (isPrimary(num))
+            ecrire(num)
+        FSI
+    FCHAQUE
+FIN

@@ -1,0 +1,20 @@
+ALGORITHME Test3
+VARIABLES
+	lire("a")
+	a<-int(a)
+	lire("b")
+	b<-int(b)
+	c<-5
+	d<-0
+
+DEBUT
+	SI (a > b)
+		SI (b > 0)
+			ecrire("Si imbrique")
+		FSI
+		ecrire("b est inferieur a a")
+	SINON
+		ecrire("b est superieur a a")
+	FSI
+FIN
+

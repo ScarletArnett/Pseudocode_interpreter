@@ -1,0 +1,20 @@
+ALGORITHME Test2
+    VARIABLES
+	a<- 10
+	b<- -5
+	tab<-[1,2,3,4,5]
+
+    DEBUT
+	SI ( a>b ) 
+		ecrire(a & " est superieur a " & b)
+	FSI
+
+	lire("c")
+
+	CHAQUE ( x <- tab )
+		ecrire(x)
+	FCHAQUE
+FIN
+	
+ 
+
